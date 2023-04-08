@@ -1,0 +1,11 @@
+[
+  {
+    "title": "DOS",
+    "description": "el primero",
+    "price": 100,
+    "thumbnail": "www.algo.com",
+    "code": 2345,
+    "stock": 7,
+    "id": 2
+  }
+]
