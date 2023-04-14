@@ -105,16 +105,18 @@ class ProductManager {
 
 
 }
-const productManager = new ProductManager();
-const context = async () => {
-    const prueba = await productManager.getProducts();
-    await productManager.addProducts("uno", "el primero", 100, "www.algo.com", 123, 7);
-    await productManager.addProducts("DOS", "el primero", 100, "www.algo.com", 2345, 7);
-    const nuevatest = await productManager.getProducts();
-    console.log(nuevatest)
-    const updateProd = await productManager.updateProduct(1, { thumbnail: 'prueba' })
-    console.log("se realizo el update con exito", updateProd)
-    const eliminar = await productManager.deleteProduct(1);
-}
 
-context()
+export default ProductManager
+// const productManager = new ProductManager();
+// const context = async () => {
+//     const prueba = await productManager.getProducts();
+//     await productManager.addProducts("uno", "el primero", 100, "www.algo.com", 123, 7);
+//     await productManager.addProducts("DOS", "el primero", 100, "www.algo.com", 2345, 7);
+//     const nuevatest = await productManager.getProducts();
+//     console.log(nuevatest)
+//     const updateProd = await productManager.updateProduct(1, { thumbnail: "prueba" })
+//     console.log("se realizo el update con exito", updateProd)
+//     //const eliminar = await productManager.deleteProduct(1);
+// }
+
+// context()

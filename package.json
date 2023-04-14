@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/sofiacouzier/desafio1/issues"
   },
-  "homepage": "https://github.com/sofiacouzier/desafio1#readme"
+  "homepage": "https://github.com/sofiacouzier/desafio1#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

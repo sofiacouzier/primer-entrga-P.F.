@@ -1,11 +1,38 @@
 [
   {
-    "title": "DOS",
+    "title": "uno",
     "description": "el primero",
+    "price": 100,
+    "thumbnail": "prueba",
+    "code": 123,
+    "stock": 7,
+    "id": 1
+  },
+  {
+    "title": "DOS",
+    "description": "el segundo",
     "price": 100,
     "thumbnail": "www.algo.com",
     "code": 2345,
     "stock": 7,
     "id": 2
+  },
+  {
+    "title": "TRES",
+    "description": "el tercero",
+    "price": 100,
+    "thumbnail": "www.algo.com",
+    "code": 25545,
+    "stock": 7,
+    "id": 3
+  },
+  {
+    "title": "CUATRO",
+    "description": "el cuarto",
+    "price": 100,
+    "thumbnail": "www.algo.com",
+    "code": 55,
+    "stock": 7,
+    "id": 4
   }
 ]
