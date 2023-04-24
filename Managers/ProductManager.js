@@ -19,7 +19,7 @@ class ProductManager {
 
 
 
-    addProducts = async (title, description, price, thumbnail, code, stock) => {
+    addProducts = async ({ title, description, price, status = true, thumbnail, code, stock }) => {
 
         const products = await this.getProducts()
 
@@ -27,6 +27,7 @@ class ProductManager {
             title,
             description,
             price,
+            status,
             thumbnail,
             code,
             stock
@@ -99,7 +100,8 @@ class ProductManager {
         const index = products.findIndex((prod) => prod.id === id);//encuentra el producto y su index (el splice funciona con index, o con id)
         products.splice(index, 1)
         await fs.promises.writeFile(this.path, JSON.stringify(products, null, 2));//reescribe el archivo
-        return console.log(`el producto id n: ${id} ha sido eliminado`)
+
+        return { message: `el producto id n: ${id} ha sido eliminado` }
     }
 
 

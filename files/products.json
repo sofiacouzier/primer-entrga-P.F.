@@ -19,7 +19,7 @@
   },
   {
     "title": "TRES",
-    "description": "el tercero",
+    "description": "cambio prueba",
     "price": 100,
     "thumbnail": "www.algo.com",
     "code": 25545,
@@ -27,12 +27,13 @@
     "id": 3
   },
   {
-    "title": "CUATRO",
+    "title": "cuatro",
     "description": "el cuarto",
-    "price": 100,
-    "thumbnail": "www.algo.com",
-    "code": 55,
-    "stock": 7,
+    "price": 120,
+    "status": true,
+    "thumbnail": "algo",
+    "code": 172,
+    "stock": 3,
     "id": 4
   }
 ]
